@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GetWordTextView">
+        <attr name="highlightColor" format="reference|color" />
+        <attr name="highlightText" format="reference|string" />
+        <attr name="selectedColor" format="reference|color" />
+        <attr name="language">
+            <enum name="English" value="0" />
+            <enum name="Chinese" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ColorFountTextView">
+        <attr name="text_arrays" format="string" />
+        <attr name="color_arrays" format="string" />
+        <attr name="textsize_arrays" format="string" />
+        <attr name="line_arrays" format="string" />
+        <attr name="style_arrays" format="string" />
+    </declare-styleable>
+    <declare-styleable name="TextDrawable">
+        <attr name="leftDrawable" format="reference" />
+        <attr name="leftDrawableWidth" format="dimension" />
+        <attr name="leftDrawableHeight" format="dimension" />
+        <attr name="rightDrawable" format="reference" />
+        <attr name="rightDrawableWidth" format="dimension" />
+        <attr name="rightDrawableHeight" format="dimension" />
+        <attr name="topDrawable" format="reference" />
+        <attr name="topDrawableWidth" format="dimension" />
+        <attr name="topDrawableHeight" format="dimension" />
+    </declare-styleable>
+
+    
+     <declare-styleable name="CircleTextProgressbar">
+        <attr name="in_circle_color" format="color" />
+    </declare-styleable>
+    
+     
+     
+         <declare-styleable name="TextViewExpandableAnimation">
+        <attr name="tvea_expandLines" format="integer" />
+        <attr name="tvea_shrinkBitmap" format="reference" />
+        <attr name="tvea_expandBitmap" format="reference" />
+        <attr name="tvea_textStateColor" format="color" />
+        <attr name="tvea_textContentColor" format="color" />
+        <attr name="tvea_textContentSize" format="dimension" />
+        <attr name="tvea_textShrink" format="string" />
+        <attr name="tvea_textExpand" format="string" />
+    </declare-styleable>
+</resources>
